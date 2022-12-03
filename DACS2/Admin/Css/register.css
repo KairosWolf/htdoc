@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Google font */
+
+@import url(https://fonts.googleapis.com/css2?family=Quicksand:wght@400&display=swap);
+body {
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: "Quicksand";
+    background-color: #fafafa;
+}
+
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+    height: 70px;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.logo img {
+    margin-left: 70px;
+    height: 70px;
+}
+
+.lang {
+    margin-right: 70px;
+    border-radius: 0.5rem;
+    margin-right: 70px;
+    border: 1px solid #333;
+    background-color: #fafafa;
+}
+
+.lang option {
+    text-align: center;
+}
+
+select {
+    border: 1px solid #dddddd;
+    outline: 0;
+    box-shadow: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+/* end header */
+
+h2 {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+form {
+    padding: 30px 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.line {
+    padding: 8px 12px;
+    background-color: #fafafa;
+}
+
+.line input {
+    height: 45px;
+    width: 23%;
+    border-radius: 4px;
+    border: 2px solid #ddd;
+}
+
+.btnLine {
+    padding: 8px 12px;
+    background-color: #fafafa;
+}
+
+.btnLine input {
+    height: 40px;
+    width: 23%;
+    border-radius: 4px;
+    border: 2px solid #ddd;
+    background-color: rgb(196, 35, 35);
+    color: white;
+    cursor: pointer;
+}
+
+.reminder {
+    display: flex;
+    width: calc(23% - 7px);
+    margin: auto;
+    padding-top: 5px;
+    color: #333;
+    font-size: 11px;
+}
+
+.linee {
+    font-size: 15px;
+    color: rgb(132, 129, 129);
+}
+
+.linee a {
+    color: #317fbd;
+    text-decoration: none;
+}
+
+.check {
+    margin-right: 5px;
+}
+
+.terms {
+    display: flex;
+    width: calc(23% - 7px);
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #333;
+    font-size: 15px;
+}
